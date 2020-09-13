@@ -1,6 +1,6 @@
 <?php
-namespace App\Helper;
-interface FetchingInterface {
+namespace App\Controller;
+interface ControllerInterface {
     public function getTransaction(array $argv);
     // public function create(array $data);
     // public function delete($id);
